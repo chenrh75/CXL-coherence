@@ -1,0 +1,25 @@
+# Local protocol reference documents
+/reference.md
+/CXL-cache-protocol-reference.md
+
+# TLC state databases and generated counterexample modules
+states/
+*_TTrace_*.tla
+*_TTrace_*.cfg
+*-trace.json
+*-error.json
+*.log
+cxl-cache-checks-*/
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*~
+*.swp
+*.swo
+
+# Local workspace metadata
+/.agents/
+/.codex/
+/.aws/
